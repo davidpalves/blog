@@ -47,7 +47,7 @@
   <div class="flex items-center space-x-4">
     <!-- RSS -->
     <a
-      class="rounded-lg text-gray-700 hover:bg-amber-300 hover:text-gray-700 dark:text-gray-200 dark:hover:bg-yellow-400"
+      class="rounded-lg text-gray-700 hover:bg-amber-300 hover:text-gray-700 dark:text-gray-200 dark:hover:bg-yellow-400 dark:hover:text-neutral-900"
       rel="external"
       href="/feed.xml"
       aria-label="RSS"
@@ -71,7 +71,7 @@
     <!-- Github -->
     <a
       class="rounded-lg text-gray-700 hover:bg-amber-300 hover:text-gray-700 dark:text-gray-200
-			dark:hover:bg-yellow-400"
+			dark:hover:bg-yellow-400 dark:hover:text-neutral-900"
       href={REPO_URL}
       aria-label="GitHub source"
     >
