@@ -37,7 +37,7 @@ Nam `tristique` vel dolor in dictum. In eu ullamcorper `ligula`, eu luctus liber
 
 ## Testing images
 
-![](static/blog/assets/python-logo.png)
+![](/blog/assets/python-logo.png)
 
 ## Testing Code
 
