@@ -1,10 +1,10 @@
 ---
-date: 2022-08-21
+date: 2022-09-07
 description: this last week, I came back to Elixir, and I'm loving every second with
   it. here are my first impressions.
 slug: first-impressions-of-Elixir
 title: First impressions of Elixir
-updated_at: 2022-08-21
+updated_at: 2022-09-07
 ---
    
 I remember being in a [Python Brasil](/blog/notes/Python-Brasil) (I think it was in Belo Horizonte), on a bar after the talks of the day were done, talking with some friends, when one of the people around said wonders about Erlang and [Elixir](/blog/notes/Elixir). I also remember trying it later that year, and getting completely confused about a lot of topics.  thinking about back then, I think I wasn't ready as a programmer to learn it in a meaningful way. this last week, I came back to Elixir, and I'm loving every second with it. here are my first impressions.   
