@@ -23,6 +23,8 @@
 <script>
   import IndexCard from "$lib/components/IndexCard.svelte";
   import dayjs from "dayjs";
+  import { SITE_TITLE } from "$lib/siteConfig";
+
 
   export let list;
   export let items;
@@ -46,8 +48,8 @@
 </script>
 
 <svelte:head>
-  <title>Blog - luciano@ratamero.com</title>
-  <meta name="description" content="The place I put all my blog posts. Most are just notes to self, though." />
+  <title>blog - {SITE_TITLE}</title>
+  <meta name="description" content={`Latest ${SITE_TITLE} posts`} />
 </svelte:head>
 
 <svelte:window on:keyup={focusSearch} />
@@ -57,8 +59,10 @@
     Blog
   </h1>
   <p class="my-8 text-gray-600 dark:text-gray-400">
-    This is the place I put all my blog posts. Most are just notes to self, though. In total, I've
-    written {items.length} articles here. Use the search below to filter by title and description.
+		This is where you will find the things I write about that I've searched or tips that maybe useful
+    in the future or for someone else. You can search below to filter, by title and description, 
+    for things that interest you.<br/>
+		I've written a total of {items.length} posts until now in this blog.
   </p>
   <div class="relative mb-4 w-full">
     <input
@@ -67,7 +71,7 @@
       bind:value={search}
       bind:this={inputEl}
       placeholder="Hit / to search by title and description"
-      class="block w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
+      class="block w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-gray-900 focus:border-yellow-500 focus:ring-yellow-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
     />
     <svg
       class="absolute right-3 top-3 h-5 w-5 text-gray-400 dark:text-gray-300"
@@ -112,7 +116,7 @@
       <div class="flex justify-center">
         <button
           on:click={() => (isTruncated = false)}
-          class="inline-block rounded bg-blue-100 p-4 text-lg font-bold tracking-tight text-black hover:text-cyan-900 dark:bg-blue-900 dark:text-white hover:dark:text-cyan-200 md:text-2xl"
+          class="inline-block rounded bg-amber-200 p-4 text-lg font-bold tracking-tight text-black hover:bg-yellow-400 dark:bg-yellow-400 dark:text-white hover:dark:bg-yellow-500 md:text-2xl"
         >
           Load More Posts...
         </button>

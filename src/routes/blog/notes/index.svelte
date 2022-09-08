@@ -111,7 +111,7 @@
       <div class="flex justify-center">
         <button
           on:click={() => (isTruncated = false)}
-          class="inline-block rounded bg-blue-100 p-4 text-lg font-bold tracking-tight text-black hover:text-cyan-900 dark:bg-blue-900 dark:text-white hover:dark:text-cyan-200 md:text-2xl"
+          class="inline-block rounded bg-amber-200 p-4 text-lg font-bold tracking-tight text-black hover:bg-yellow-400 dark:bg-yellow-400 dark:text-white hover:dark:bg-yellow-500 md:text-2xl"
         >
           Load More Posts...
         </button>

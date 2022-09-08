@@ -22,7 +22,7 @@
 
 {#if $navigationIsDelayed}
   <div class="fixed w-full h-full z-10" in:fade={{ duration: 150 }}>
-    <div class="absolute w-full h-full bg-white dark:bg-cyan-800 opacity-50 z-10"></div>
+    <div class="absolute w-full h-full bg-white dark:bg-amber-500 opacity-50 z-10"></div>
     <div class="absolute w-full h-full flex justify-center items-center z-20">
       <Circle3 />
     </div>
@@ -63,19 +63,11 @@
       >
         GitHub
       </a>
-      <a
-        class="text-gray-500 transition hover:text-gray-300"
-        target="_blank"
-        rel="noopener noreferrer"
-        href={MY_YOUTUBE}
-      >
-        YouTube
-      </a>
     </div>
   </div>
   <p class="prose px-4 dark:prose-invert sm:px-8">
     This blog is based on the
     <a href="https://swyxkit.netlify.app/">swyxkit</a>
-    template, with heavy modifications.
+    template, heavily modified.
   </p>
 </footer>

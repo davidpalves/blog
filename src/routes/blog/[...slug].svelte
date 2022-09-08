@@ -54,13 +54,13 @@
   <div
     class="bg mt-2 flex w-full justify-between sm:flex-col sm:items-start md:flex-row md:items-center"
   >
-    <p class="flex items-center text-sm text-gray-700 dark:text-gray-300">Luciano Ratamero</p>
+    <p class="flex items-center text-sm text-gray-700 dark:text-gray-300">David Pierre</p>
     <p class="min-w-32 flex items-center text-sm text-gray-600 dark:text-gray-400 md:mt-0">
       {dayjs(metadata.date).toISOString().slice(0, 10)}
     </p>
   </div>
   <div
-    class="my-2 flex h-1 bg-gradient-to-r from-cyan-400 via-sky-500 to-pink-500 sm:mx-0 w-full"></div>
+    class="my-2 flex h-1 bg-gradient-to-r from-yellow-400 via-amber-500 to-orange-500 sm:mx-0 w-full"></div>
 
   <div class="prose mt-12 w-full max-w-none dark:prose-invert">
     {@html content}

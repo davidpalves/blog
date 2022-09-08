@@ -47,7 +47,7 @@
   <div class="flex items-center space-x-4">
     <!-- RSS -->
     <a
-      class="rounded-lg text-gray-700 hover:bg-cyan-200 dark:text-gray-200 dark:hover:bg-cyan-800"
+      class="rounded-lg text-gray-700 hover:bg-amber-300 hover:text-gray-700 dark:text-gray-200 dark:hover:bg-yellow-400"
       rel="external"
       href="/feed.xml"
       aria-label="RSS"
@@ -70,8 +70,8 @@
     </a>
     <!-- Github -->
     <a
-      class="rounded-lg text-gray-700 hover:bg-cyan-200 dark:text-gray-200
-			dark:hover:bg-cyan-800"
+      class="rounded-lg text-gray-700 hover:bg-amber-300 hover:text-gray-700 dark:text-gray-200
+			dark:hover:bg-yellow-400"
       href={REPO_URL}
       aria-label="GitHub source"
     >
@@ -93,8 +93,8 @@
     </a>
     <button
       aria-label="Toggle Dark Mode"
-      class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg bg-cyan-400 ring-cyan-400
-			transition-all hover:ring-2 dark:bg-cyan-800"
+      class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg bg-amber-300 ring-amber-300
+			transition-all hover:ring-2 dark:bg-yellow-400"
       on:click={toggleDarkMode}
     >
       {#if isDark}
@@ -103,7 +103,7 @@
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          class="h-5 w-5 text-gray-800 dark:text-cyan-100"
+          class="h-5 w-5 text-gray-800 dark:text-black-500"
         >
           <path
             stroke-linecap="round"

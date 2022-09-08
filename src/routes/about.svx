@@ -1,42 +1,43 @@
-<svelte:head>
-  <title>About me - luciano@ratamero.com</title>
-</svelte:head>
 
 <script>
-  import eu3x from "$lib/img/eu-3x.jpg";
+  import me from "$lib/img/me.jpg";
+  import { SITE_TITLE } from '$lib/siteConfig';
 
-  const birthday = new Date("1989-06-15");
+  const birthday = new Date("1998-01-20");
   const month_diff = Date.now() - birthday.getTime();
   const age_dt = new Date(month_diff);
   const year = age_dt.getUTCFullYear();
   const age = Math.abs(year - 1970);
 </script>
 
-# About Luciano
+<svelte:head>
+  <title>about me - {SITE_TITLE}</title>
+</svelte:head>
 
-<img id="skip" class="rounded-lg block mx-auto" src={eu3x} alt="Luciano in a raccoon onesie." />
+# About David
 
-Hi, my name is Luciano Ratamero (he/him), I'm {age} years old, and I currently live in Recife, Brazil. :]
+<img id="skip" class="rounded-lg block mx-auto" width=180 src={me} alt="David smiling and looking down." />
 
-I love reading, writing, playing videogames, listening to music, and watching streams on Twitch.
+Hello, my name is David (It is usually pronounced as "Davi" [Dah-vee]) <br/>
+I'm a {age} years old brazilian, living in Recife, Pernambuco. <br/>
+<p>
+  I love playing musical instruments, playing basketball or some video games, and listening to music. 
+</p>
 
-I'm a JavaScript and Python web developer, working mainly on the frontend. I've worked with a lot of tehcnologies over the years, including React, Django and Svelte.
+<p>
+  I'm a software engineer and I've been crafting code professionally since 2018 in different kinds of projects
+  - lawtechs, sports related, delivery apps, etc. - with clients all over the world.<br/>
+  I'm also really interested in open source and information security, I've also presented some talks about these topics 
+  in events like Python Brasil and Python Nordeste.<br/>
+</p>
+<p>
+  I currently work at <strong>Tempest Security Intelligence</strong>.
+</p>
+<p>
+  This blog is a place for me to share some thoughts, learnings and things that may be useful for someone else someday.
+</p>
 
-Currently, I'm developing apps for [Lincoln Loop](https://lincolnloop.com/) and training devs at [Labcodes](https://labcodes.com.br/), so their awesome team becomes even better at frontend. I also sometimes make some videos on [YouTube](https://www.youtube.com/channel/UCYBAN_yOwqKG6tlaPHvROqg).
-
-Feel free to take a look around! I leave a lot of notes on things I'm interested about, so I hove they're of use to you.
-
-## Links
-
-- [twitter](https://twitter.com/lucianoratamero)
-- [github](https://github.com/lucianoratamero/)
-- [youtube](https://www.youtube.com/channel/UCYBAN_yOwqKG6tlaPHvROqg)
-- [twitch](https://www.twitch.tv/luciano_ratamero)
-- [linkedin](https://www.linkedin.com/in/luciano-ratamero-06b98b32/)
-- [lastfm](https://www.last.fm/user/lucianoratamero)
-
-<style>
-  img {
-    height: 25vh;
-  }
-</style>
+## Useful Links
+ - [Github](https://github.com/davidpalves)
+ - [Twitter](https://twitter.com/davidpierrea)
+ - [LinkedIn](https://www.linkedin.com/in/davidpalves)

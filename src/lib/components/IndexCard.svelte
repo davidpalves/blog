@@ -8,7 +8,7 @@
 
 <a
 	sveltekit:prefetch
-	class="w-full text-gray-900 hover:text-cyan-600 dark:text-gray-100 dark:hover:text-cyan-100 hover:no-underline"
+	class="w-full text-gray-900 hover:text-amber-500 dark:text-gray-100 dark:hover:text-yellow-400 hover:no-underline"
 	{href}
 	><div class="mt-4 mb-12 w-full">
 		<div class="flex flex-col justify-between md:flex-row">

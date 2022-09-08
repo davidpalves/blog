@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-  <title>welcome! - {SITE_TITLE}</title>
+  <title>home! - {SITE_TITLE}</title>
   <link rel="canonical" href={SITE_URL} />
   <link rel="alternate" type="application/rss+xml" href={SITE_URL + '/feed.xml'} />
   <meta property="og:url" content={SITE_URL} />
@@ -51,25 +51,27 @@
     <div class="flex flex-col pr-8">
       <h1 class="mb-8 text-2xl sm:text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
         This is
-        <br />
         <span
-          class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-sky-900"
+          class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-amber-400"
         >
-					<span class="relative skew-y-3 text-cyan-400">{SITE_TITLE}</span>
+					<span class="relative skew-y-3 text-neutral-900 dark:text-neutral-100">{SITE_TITLE}</span>
 				</span>
         !
       </h1>
       <h2 class="mb-4 text-gray-700 dark:text-gray-200">
-        Welcome to my site! What you'll see here are some of my notes, opinions and findings about technology, frontend
-        development and... mostly anything.
+				Welcome, this is my blog!
+				I'm a brazilian software engineer, passionate about open source and infosec.
+				Here I'll try to share some learnings, tips and random thoughts.
       </h2>
-      <p class="text-black dark:text-white">Thanks for your attention, and I hope to see you again soon!</p>
+      <p class="text-black dark:text-white">
+      Feel free to get in touch with me through the links in the footer!
+      </p>
     </div>
   </div>
 
   <section id="skip" class="mb-16 w-full">
     <h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
-      Featured Posts
+      Recent Posts
     </h3>
     <div class="flex flex-col gap-6 md:flex-row">
       {#each items as item, i}
@@ -81,7 +83,7 @@
     <a
       class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
       href="/blog"
-    >See latest posts
+    >See more posts
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
