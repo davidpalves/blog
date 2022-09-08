@@ -27,7 +27,7 @@ I'm a {age} years old brazilian, living in Recife, Pernambuco. <br/>
 <p>
   I'm a software engineer and I've been crafting code professionally since 2018 in different kinds of projects
   - lawtechs, sports related, delivery apps, etc. - with clients all over the world.<br/>
-  I'm also really interested in open source and information security, I've also presented some talks about these topics 
+  I'm really interested in open source and information security, I've also presented some talks about these topics 
   in events like Python Brasil and Python Nordeste.<br/>
 </p>
 <p>
