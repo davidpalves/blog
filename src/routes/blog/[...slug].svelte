@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-  <title>{metadata.title} - luciano@ratamero.com</title>
+  <title>{metadata.title} - davidpalves</title>
 
   <link rel="canonical" href={$page.url} />
   <meta property="og:url" content={$page.url} />

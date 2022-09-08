@@ -1,8 +1,8 @@
 {
-    "name": "luciano@ratamero.com",
-    "short_name": "ratamero.com",
+    "name": "davidpalves",
+    "short_name": "davidpalves",
     "start_url": "/",
-    "description": "Luciano Ratamero's site. Here are some of my notes, opinions and findings about technology, frontend development and... mostly anything.",
+    "description": "David Pierre's site.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
