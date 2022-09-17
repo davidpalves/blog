@@ -47,7 +47,7 @@ data = {
 response = requests.post('http://localhost/login.php', cookies=cookies, headers=headers, data=data)
 ```
 
-Here we can see a few interesting things in the request we made:  a cookie called `PHPSESSID ` and a parameter called `user_token`, if we try to refresh the page and login again we'll see that both of them will have new values. `PHPSESSID` is a way of PHP of setting a session cookie and `user_token` looks like a [CSRF Token](https://portswigger.net/web-security/csrf/tokens), a unique, unpredictable value that the server uses to validate the given request and properly process it if valid. Let's see what happens if we make a few requests without changing its value:
+Here we can see a few interesting things in the request we made:  a cookie called `PHPSESSID ` and a parameter called `user_token`, if we try to refresh the page and login again we'll see that both of them will have new values. `PHPSESSID` is a a PHP way of setting a session cookie and `user_token` looks like a [CSRF Token](https://portswigger.net/web-security/csrf/tokens), a unique, unpredictable value that the server uses to validate the given request and properly process it if valid. Let's see what happens if we make a few requests without changing its value:
 
 ```python
 for _ in range(1, 3):
