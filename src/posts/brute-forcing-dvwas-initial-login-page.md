@@ -72,14 +72,14 @@ And we'll get a tag like this within our response:
 <input type=\'hidden\' name=\'user_token\' value=\'faaf19846a466a9f328f2a43a06cfdb6\' />
 ```
 
-So we can probably extract that using a [regex](https://en.wikipedia.org/wiki/Regular_expression), let's try that
+So we can probably extract that using a [regex](https://en.wikipedia.org/wiki/Regular_expression). Let's try that
 
 ```python
 def get_user_token(body):
     return re.search("user_token\\\' value=\\\'(.+)\\\'", body).group(1)
 ```
 
-Let's also get the `PHPSESSID` cookie since we're already getting data from the new request. It is in the Headers, however, we can do it like this
+Let's also get the `PHPSESSID` cookie, since we're already getting data from the new request. It is in the Headers, however, we can do it in the same way as the token.
 
 ```python
 def get_phpsessid(headers):
@@ -104,8 +104,8 @@ PASSWORDS = [
     "password",
     "tentativa",
     "aloha",
-    "ihuuuu"
-    "qwerty"
+    "ihuuuu",
+    "qwerty",
     "qw12er34ty56"
 ]
 ```
