@@ -23,7 +23,7 @@ As you can see, I've highlighted somethings in the image above. The request high
 
 ![Copy request as cURL command](/blog/assets/copy-as-curl.png)
 
-Although cURL commands are pretty useful, I don't find them really easy to read, so let's transform it in a Python request and see how it looks. For that we can use the [cURL converter website](https://curlconverter.com/python/) to do the job for us and it's output will look something like this:
+Although cURL commands are pretty useful, I don't find them really easy to read, so let's transform it in a Python request and see how it looks. For that we can use the [cURL converter website](https://curlconverter.com/python/) to do the job for us and its output will look something like this:
 
 ```python
 import requests
