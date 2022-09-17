@@ -63,8 +63,8 @@
 				I'm a brazilian software engineer, passionate about open source and infosec.
 				Here I'll try to share some learnings, tips and random thoughts.
       </h2>
-      <p class="text-black dark:text-white">
-      Feel free to get in touch with me through the links in the footer!
+      <p class="mb-4 text-gray-700 dark:text-white">
+        Feel free to get in touch with me through the links in the footer!
       </p>
     </div>
   </div>

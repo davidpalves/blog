@@ -1,3 +1,5 @@
+const { reduce } = require("lodash");
+
 module.exports = {
   content: [
     "./src/**/*.svelte",
