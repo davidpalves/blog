@@ -56,6 +56,10 @@ for _ in range(1, 3):
     print("==============")
 ```
 
+The output we have is:
+
+![Print screen of the invalid CSRF output](/blog/assets/invalid-csrf-token.png)
+
 After the first request, you'll probably see we have a `CSRF token is incorrect` message within its body content, so this confirms our theory! So what can we do to get around it and be able to automatize our requests? 
 
 First of all, we've already seen that every time we load the page a new token is generated for us, we can use that for getting a new token before every new request we make, so let's try making a `GET` request and see what we get.
