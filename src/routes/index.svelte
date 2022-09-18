@@ -95,15 +95,6 @@
               <i class="fa fa-twitter"></i>
             </a>
           </li>
-          <li class="inline-block">
-            <a 
-              class="text-gray-500 transition hover:text-gray-300"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="mailto:davidpierrealves21@gmail.com">
-              <i class="fa fa-envelope"></i>
-            </a>
-          </li>
         </ul>
       </div>
     </div>
