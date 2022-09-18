@@ -124,3 +124,7 @@ body::-webkit-scrollbar-thumb {
     background: linear-gradient(#facc15, #fb923c);
     border-radius: 4px;
 }
+
+.fa {
+    font-size: 2.3em;
+}
