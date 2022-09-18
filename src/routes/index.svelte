@@ -57,7 +57,7 @@
 					<span class="relative skew-y-3 text-neutral-900 dark:text-neutral-100">David</span>
 				</span>
         !
-        <img src="/static/memoji.png" class="relative inline-block" width="85px" alt="An Avatar of David's face">
+        <img src="/memoji.png" class="relative inline-block" width="85px" alt="An Avatar of David's face">
       </h1>
       <h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				I'm a Brazilian software engineer, passionate about open source and cyber security.<br/>
