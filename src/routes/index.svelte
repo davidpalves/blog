@@ -74,7 +74,7 @@
               target="_blank"
               rel="noopener noreferrer"
               href={REPO_URL}>
-                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fa fa-github"></i>
             </a>
           </li>
           <li class="inline-block">
@@ -83,7 +83,7 @@
               target="_blank"
               rel="noopener noreferrer"
               href="{MY_LINKEDIN}">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-linkedin"></i>
             </a>
           </li>
           <li class="inline-block">
@@ -92,7 +92,7 @@
               target="_blank"
               rel="noopener noreferrer"
               href={'https://twitter.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li class="inline-block">
@@ -101,7 +101,7 @@
               target="_blank"
               rel="noopener noreferrer"
               href="mailto:davidpierrealves21@gmail.com">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i class="fa fa-envelope"></i>
             </a>
           </li>
         </ul>
