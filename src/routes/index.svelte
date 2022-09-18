@@ -1,5 +1,5 @@
 <script context="module">
-  import { DEFAULT_OG_IMAGE, MY_TWITTER_HANDLE, SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from "$lib/siteConfig";
+  import { DEFAULT_OG_IMAGE, MY_TWITTER_HANDLE, SITE_DESCRIPTION, SITE_TITLE, SITE_URL, REPO_URL, MY_LINKEDIN } from "$lib/siteConfig";
 
   export const prerender = true; // index page is most visited, lets prerender
 
@@ -50,22 +50,62 @@
   <div class="flex flex-col-reverse items-start sm:flex-row mb-8">
     <div class="flex flex-col pr-8">
       <h1 class="mb-8 text-2xl sm:text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
-        This is
+        Hi there! I'm
         <span
           class="relative ml-2 inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-amber-400"
         >
-					<span class="relative skew-y-3 text-neutral-900 dark:text-neutral-100">{SITE_TITLE}</span>
+					<span class="relative skew-y-3 text-neutral-900 dark:text-neutral-100">David</span>
 				</span>
         !
+        <img src="/static/memoji.png" class="relative inline-block" width="85px" alt="An Avatar of David's face">
       </h1>
       <h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				Welcome, this is my blog!
-				I'm a brazilian software engineer, passionate about open source and infosec.
-				Here I'll try to share some learnings, tips and random thoughts.
+				I'm a Brazilian software engineer, passionate about open source and cyber security.<br/>
+				Here I'll try to share some learnings, tips, random thoughts, and pretty much anything I feel like sharing.
       </h2>
       <p class="mb-4 text-gray-700 dark:text-white">
-        Feel free to get in touch with me through the links in the footer!
+        Feel free to get in touch with me through the links below!
       </p>
+      <div class="flex flex-col-reverse items-center text-gray-700 dark:text-white">
+        <ul class="space-x-20 content-center space-y-5">
+          <li class="inline-block">
+            <a 
+              class="text-gray-500 transition hover:text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={REPO_URL}>
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="inline-block">
+            <a 
+              class="text-gray-500 transition hover:text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="{MY_LINKEDIN}">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="inline-block">
+            <a 
+              class="text-gray-500 transition hover:text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={'https://twitter.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="inline-block">
+            <a 
+              class="text-gray-500 transition hover:text-gray-300"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:davidpierrealves21@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 

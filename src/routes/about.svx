@@ -19,22 +19,22 @@
 <img id="skip" class="rounded-lg block mx-auto" width=180 src={me} alt="David smiling and looking down." />
 
 Hello, my name is David (It is usually pronounced as "Davi" [Dah-vee]) <br/>
-I'm a {age} years old brazilian, living in Recife, Pernambuco. <br/>
+I'm a {age} years old Brazilian, living in Recife, Pernambuco. <br/>
 <p>
   I love playing musical instruments, playing basketball or some video games, and listening to music. 
 </p>
 
 <p>
   I'm a software engineer and I've been crafting code professionally since 2018 in different kinds of projects
-  - lawtechs, sports related, delivery apps, etc. - with clients all over the world.<br/>
+  - lawtechs, sports-related, delivery apps, etc. - with clients all over the world.<br/>
   I'm really interested in open source and information security, I've also presented some talks about these topics 
-  in events like Python Brasil and Python Nordeste.<br/>
+  at events like Python Brasil and Python Nordeste.<br/>
 </p>
 <p>
   I currently work at <strong>Tempest Security Intelligence</strong>.
 </p>
 <p>
-  This blog is a place for me to share some thoughts, learnings and things that may be useful for someone else someday.
+  This blog is a place for me to share some thoughts, learnings, and things that may be useful for someone else someday.
 </p>
 
 ## Useful Links
