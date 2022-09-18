@@ -3,10 +3,10 @@ title: Brute forcing DVWA's initial login page
 slug: brute-forcing-dvwas-initial-login-page 
 date: 2022-09-17 
 updated_at: 2022-09-17 
-description: "Although it is quite easy to see write-ups for the DVWA's brute force login challenge. Hacking its actual login page may bring up some challenges for newcomers. Let's understand why and how to circumvent it"
+description: "Although it is quite easy to see write-ups for the DVWA's brute force login challenge, hacking its actual login page may bring up some challenges for newcomers. Let's understand why and how to circumvent it"
 ---
 
-Although it is quite easy to find write-ups for the DVWA's brute force login challenge. Hacking its actual login page may bring up some challenges for newcomers. Let's understand why and how to circumvent it!
+Although it is quite easy to find write-ups for the DVWA's brute force login challenge, hacking its actual login page may bring up some challenges for newcomers. Let's understand why and how to circumvent it!
 
 [Damn Vulnerable Web App, also known as DVWA](https://github.com/digininja/DVWA), is a PHP/MySQL web application that is purposefully vulnerable, as the name suggests, to be hacked, tested, and serves as a learning playground for people that want to practice their security skills in a legal environment.
 
