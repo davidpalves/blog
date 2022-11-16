@@ -13,15 +13,15 @@ Although it is quite easy to find write-ups for the DVWA's brute force login cha
 When we set up our DVWA server (in this case, I preferred using a docker image to host it for me), and do an initial reset database it will set up and show the default credentials for us: username `admin` and password `password`, pretty common default credentials for a web server, right? However, if we could not hack, automate, and find our own way to the system, how fun would it be?
 
 So, this is the first thing we see when we access our DVWA page:
-![DVWA Login Page](/blog/assets/DVWA-Login-Page.png)
+![DVWA Login Page](/blog/assets/dvwa/DVWA-Login-Page.png)
 
 First things first, let's try to grasp this page and see if we can grab any hints that we could use, for it let's check the network tab as well. You can use another proxy to intercept requests too if you prefer.
 
-![Highlighted requests](/blog/assets/highlighted-requests.png)
+![Highlighted requests](/blog/assets/dvwa/highlighted-requests.png)
 
 As you can see, I've highlighted some things in the image above. The request highlighted in blue is the POST request we just made trying to log in. After that, the server processes the request and redirects us to `login.php` as we can see in the red highlight, with a message of "Login failed", as shown in the yellow highlight on the left. Let's copy the post request as a [cURL](https://curl.se/) command and see how it is formed. 
 
-![Copy request as cURL command](/blog/assets/copy-as-curl.png)
+![Copy request as cURL command](/blog/assets/dvwa/copy-as-curl.png)
 
 Although cURL commands are pretty useful, I don't find them easy to read, so let's transform it into a Python request and see how it looks. For that, we can use the [cURL converter website](https://curlconverter.com/python/) to do the job for us and its output will look something like this:
 
@@ -58,7 +58,7 @@ for _ in range(1, 3):
 
 The output we have is:
 
-![Print screen of the invalid CSRF output](/blog/assets/invalid-csrf-token.png)
+![Print screen of the invalid CSRF output](/blog/assets/dvwa/invalid-csrf-token.png)
 
 After the first request, you'll probably see we have a `CSRF token is incorrect` message within its body content, so this confirms our theory! So what can we do to get around it and be able to automatize our requests? 
 
@@ -136,7 +136,7 @@ def brute_force():
 
 This function iterates over the PASSWORDS list we've defined earlier, sets the tokens we need for every new request, and, finally, does the request. After that, we check if there's a `Login failed` message within the response content to see if we succeeded or not and then print out the credentials found. The final output will look like this:
 
-![Script output Result](/blog/assets/script-output.png)
+![Script output Result](/blog/assets/dvwa/script-output.png)
 
 ## Conclusion
 
