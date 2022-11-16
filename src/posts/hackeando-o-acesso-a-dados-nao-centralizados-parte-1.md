@@ -16,7 +16,7 @@ Comecei a pesquisar os bancos de sangue de minha cidade, para ver o que eu poder
 
 ![Estoque banco de sangue exemplo](/blog/assets/sanguine-parte-1/estoque-banco-sangue-example.png)
 
-O dado estava ali. Mas __os__ dados (histórico, formatado, etc) não eram disponibilizados facilmente. Então, decidi que eu mesmo coletaria os dados que eu queria. Já possuia alguma experiência com raspagem de dados, então, e não seria complexo automatizar a coleta desses níveis de sangue. 
+O dado estava ali. Mas __os__ dados (histórico, formatado, etc) não eram disponibilizados facilmente. Então, decidi que eu mesmo coletaria os dados que eu queria. Já possuia alguma experiência com raspagem de dados, então não seria complexo automatizar a coleta desses níveis de sangue. 
 
 Fiz o mapeamento de alguns bancos de sangue locais que possuíam alguma seção que mostrasse o nível de sangue de seus estoques. Afinal, não teria sentido analizar a coleta de um único site. A ideia era simples: coletar o maior número de dados possível, de diferentes locais, e centralizar, de forma que facilite ao doador de sangue saber quando ele pode doar, onde os estoques estão mais baixos e democratizar a situação dos estoques disponíveis, até para ajudar em outras campanhas de doação de sangue.
 
