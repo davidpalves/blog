@@ -39,5 +39,6 @@ I'm a {age} years old Brazilian, living in Recife, Pernambuco. <br/>
 
 ## Useful Links
  - [Github](https://github.com/davidpalves)
+ - [Mastodon](https://fim.social/@davidpierre)
  - [Twitter](https://twitter.com/davidpierrea)
  - [LinkedIn](https://www.linkedin.com/in/davidpalves)

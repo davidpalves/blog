@@ -125,6 +125,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 4px;
 }
 
-.fa {
+.fa, .fa-brands {
     font-size: 2.3em;
 }

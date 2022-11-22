@@ -95,6 +95,15 @@
               <i class="fa fa-twitter"></i>
             </a>
           </li>
+          <li class="inline-block">
+            <a 
+              class="text-gray-500 transition hover:text-gray-300"
+              target="_blank"
+              rel="me noopener noreferrer"
+              href="https://fim.social/@davidpierre">
+              <i class="fa-brands fa-mastodon"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
